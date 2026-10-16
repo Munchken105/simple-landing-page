@@ -1,0 +1,73 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    background-color: gold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.left-side{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right-side{
+    margin-right: 50px;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+
+.header-logo{
+    height: 70%;
+    width: auto;
+    object-fit: contain;
+}
+
+.top-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.left-side-top-content{
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 5px;
+}
+
+.title-top-content{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.top-content-image-right{
+    height: 10%;
+    width: auto;
+    margin-left: 5px;
+}
+.mcchicken{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.footer{
+    display: flex;
+}
+
+
