@@ -2,11 +2,18 @@ body{
     margin: 0;
     min-height: 100vh;
 }
-.page, .middle{
+.page{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 .top{
     background-color: gold;
@@ -131,11 +138,50 @@ a{
     margin-right: 60px;
 }
 
+.bx-sign-up{
+    background-color: gold;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    gap: 30px;
+    width: 800px;
+}
 
+.sign-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sign-text{
+    margin-top: 0;
+}
+
+
+.sign-up-button{
+    flex: 1;
+    margin-left: 300px;
+}
+
+button{
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    background-color: gold;
 }
