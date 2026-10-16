@@ -1,6 +1,11 @@
-.page{
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.page, .middle{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .top{
@@ -13,6 +18,7 @@
     width: 100%;
     height: 100px;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .left-side{
@@ -21,8 +27,10 @@
     align-items: center;
 }
 
-.right-side{
+.right-side ul{
+    display: flex;
     margin-right: 50px;
+    gap: 30px;
 }
 
 a{
@@ -66,8 +74,68 @@ a{
 
 
 
-.footer{
+.middle-info{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meals-title{
+    font: bold;
+    font-size: 36px;
+}
+
+.info ul{
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.info-1, .info-2 , .info-3 , .info-4{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.mcchicken-meal, .big-wac-meal, .wcsasuage-meal, .spicy-snack-wrap-meal{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 5px solid #DB0007;
+    border-radius: 12px;
 }
 
 
+
+
+.quote{
+    margin-top: 80px;
+    background-color: #DB0007;
+    width: 100%;
+}
+
+.big-quote{
+    display: flex;
+    font-size: 48px;
+    margin-bottom: 0px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.small-quote{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content:flex-end;
+    margin-right: 60px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
